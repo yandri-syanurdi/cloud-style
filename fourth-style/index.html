@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Realistic Cloud Parallax Banner</title>
+        <link rel="stylesheet" type="text/css" href="style.css" >
+    </head>
+    <body>
+        <div class="banner">
+            <h2 id="text">Heaven</h2>
+            <div class="clouds">
+                <img src="cloud1.png" style="--i:1;">
+                <img src="cloud2.png" style="--i:2;">
+                <img src="cloud3.png" style="--i:3;">
+                <img src="cloud4.png" style="--i:4;">
+                <img src="cloud5.png" style="--i:5;">
+                <img src="cloud1.png" style="--i:10;">
+                <img src="cloud2.png" style="--i:9;">
+                <img src="cloud3.png" style="--i:8;">
+                <img src="cloud4.png" style="--i:7;">
+                <img src="cloud5.png" style="--i:6;">
+            </div>
+        </div>
+        <section>
+            <h2>Realistic Cloud Banner Parallax Effects</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu velit quis sem convallis aliquam. Sed vestibulum posuere metus et bibendum. Fusce enim tellus, mattis a sem id, vehicula semper sapien. Curabitur at magna vel augue ornare rutrum. Aliquam eget ornare erat, in dignissim velit. Vestibulum mauris tortor, posuere sed urna in, blandit interdum sapien. Morbi euismod aliquet ipsum, nec aliquam risus maximus sit amet. Praesent ac ultricies metus.
+                Donec in commodo velit, in semper velit. Ut posuere nunc massa. Nulla tempor dictum odio quis viverra. Duis vehicula orci massa, vel ultricies urna iaculis ac. Aliquam erat volutpat. Etiam sit amet posuere lectus, scelerisque maximus sem. Aliquam et ante augue. Aenean convallis dapibus tellus, venenatis dictum ex tristique a. Nunc eu lacinia turpis. Nunc vehicula facilisis tellus, quis eleifend dui pulvinar sed. Pellentesque venenatis congue elit, sit amet lacinia enim lacinia eget. Etiam id dictum eros, in mattis orci. Suspendisse sit amet purus sit amet enim iaculis consectetur ut in sapien. Phasellus semper dictum semper. In ac quam odio. Suspendisse maximus facilisis turpis sed dapibus.
+                <br><br>> elit metus, lacinia eget felis interdum, fermentum mattis justo. Morbi blandit pellentesque mollis. Fusce tempor ornare fringilla. Pellentesque ligula velit, ultricies vel hendrerit id, venenatis tincidunt libero. Aliquam pulvinar ultrices nisl, quis auctor nisi tempus at. In eu nisi risus. Maecenas ac leo ut velit dignissim congue. Curabitur ultrices venenatis tellus vel consectetur. Sed mattis sollicitudin aliquet. Nam pulvinar tempor nisl in mollis. Phasellus convallis nec magna nec commodo. Maecenas eu risus molestie, sollicitudin eros eget, vestibulum sem. Suspendisse potenti. Integer consectetur, arcu id condimentum egestas, sem velit vestibulum quam, eu elementum nulla nunc ac erat.
+                Duis ultrices blandit dui viverra gravida. Suspendisse porta accumsan mi, et vulputate neque lacinia eu. Sed metus libero, ultrices ullamcorper venenatis efficitur, dapibus id nibh. Pellentesque sed blandit justo, sollicitudin aliquet metus. Morbi ut sagittis massa. In ac sagittis justo. Integer ornare id est a viverra. Nunc dolor nibh, suscipit vel egestas eu, dictum quis augue. Vestibulum lacus erat, dignissim nec turpis sed, bibendum egestas orci. Sed vitae odio non elit pretium iaculis at non sem.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum auctor nunc, quis volutpat metus egestas nec. Donec sagittis tellus quis eros pharetra, in aliquet nulla mattis. Maecenas a neque iaculis, scelerisque tortor a, varius sem. Pellentesque pellentesque sit amet metus vel lacinia. Etiam a mi vel eros pellentesque tempor. Nulla facilisis molestie magna a ultrices. Aliquam auctor nibh et justo convallis euismod. Etiam sit amet sem fermentum, imperdiet arcu vel, gravida massa. Ut sit amet congue nibh, at lacinia mauris. In a sem diam. Cras porta dui non ultricies gravida. </p>
+        </section>
+        <script type="text/javascript">
+            let text = document.getElementById('text');
+            window.addEventListener('scroll' , function(){
+                let value = window.scrollY;
+                text.style.marginBottom = value * 2 + 'px';
+            })
+        </script>
+    </body>
+</html>
